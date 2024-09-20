@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-pause {
+    animation-play-state: paused;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  @apply bg-whitebg;
+}
+
+.keen-slider__slide-container {
+  display: flex;
+}
+
+.keen-slider__slide {
+  height: 300px;
+  width: 100%;
+}
+
+.animate-scroll {
+  animation: scroll 40s linear infinite;
+}
+
+.border-br-white {
+  border-bottom: 4px solid white; /* Adjust thickness as needed */
+  border-right: 4px solid white; /* Adjust thickness as needed */
+}
+
+:root {
+  --swiper-navigation-color: #3e17ff;
+}
