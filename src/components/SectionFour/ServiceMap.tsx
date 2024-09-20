@@ -1,4 +1,3 @@
-import React from "react";
 import OperationImage from "../../assets/images/ServiceMap/Operation.jpeg";
 import WarehouseImage from "../../assets/images/ServiceMap/Warehouse.jpg";
 import CampaignImage from "../../assets/images/ServiceMap/Campaign.jpeg";

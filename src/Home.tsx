@@ -1,12 +1,9 @@
-// Home.js
-import React from "react";
 import Navbar from "./components/Navbar";
 import Showcase from "./components/SectionFive/Showcase";
 import Carousel from "./components/SectionFour/Carousel";
 import Map from "./components/SectionFour/Map.tsx";
 import ServiceMap from "./components/SectionFour/ServiceMap.tsx";
 import Hero from "./components/Hero.tsx";
-import Foot from "./components/Foot.tsx";
 import Services from "./components/SectionThree/Services.tsx";
 import Accordion from "./components/SectionSix/Accordion.tsx";
 import Contact from "./components/SectionSeven/Contact.tsx";

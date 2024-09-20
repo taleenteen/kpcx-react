@@ -60,7 +60,7 @@ function ThumbnailPlugin(
 }
 
 export default function App() {
-  const [instanceRef, instanceRefSet] = React.useState<
+  const [instanceRef] = React.useState<
     MutableRefObject<KeenSliderInstance | null>
   >(React.createRef());
   const [thumbnailRef] = useKeenSlider<HTMLDivElement>(

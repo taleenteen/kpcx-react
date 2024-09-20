@@ -1,4 +1,3 @@
-import React from "react";
 import Banner from "./components/Contacts/Banner";
 import ContactForm from "./components/Contacts/ContactForm";
 import { Link } from "react-router-dom"; // import Link จาก react-router-dom
